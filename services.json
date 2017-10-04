@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Telemod",
+    "url": "http://localhost:8089/boundingBoxes",
+    "serviceName": "telemod",
+    "email": "fabio@adamassoft.it"
+  },
+  {
+    "name": "Rupes BO",
+    "url": "http://localhost:3001/categories/en",
+    "serviceName": "rupesBO",
+    "email": "fabio@adamassoft.it"
+  },
+  {
+    "name": "Epathos BO",
+    "url": "http://localhost:9000",
+    "serviceName": "streamer",
+    "email": "fabio@adamassoft.it"
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "name": "local-monitor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "monitor.js",
+  "bin": {
+    "remo-server": "./monitor.js",
+    "remo-satellite": "./satellite-monitor.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/chalk": "0.4.31",
+    "@types/mkdirp": "0.5.1",
+    "@types/mqtt": "0.0.34",
+    "@types/node": "8.0.31",
+    "@types/nodemailer": "^3.1.1",
+    "@types/q": "1.0.5",
+    "@types/uuid": "3.4.2",
+    "chalk": "2.1.0",
+    "dotenv": "4.0.0",
+    "fs": "0.0.1-security",
+    "mkdirp": "0.5.1",
+    "mqtt": "2.13.0",
+    "node-telegram-bot-api": "^0.28.0",
+    "nodemailer": "^4.0.1",
+    "optimist": "0.6.1",
+    "q": "1.5.0",
+    "simple-get": "^2.6.0",
+    "telegraf": "^3.10.1",
+    "ts-node": "^3.3.0",
+    "uuid": "3.1.0"
+  }
+}
