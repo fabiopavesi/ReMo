@@ -29,7 +29,7 @@ var fs = require("fs");
 var message_1 = require("./model/message");
 var server_list_1 = require("./model/server-list");
 var exec = require('child_process').exec;
-var SatelliteMonitor = (function () {
+var SatelliteMonitor = /** @class */ (function () {
     function SatelliteMonitor() {
         var _this = this;
         this.services = [];

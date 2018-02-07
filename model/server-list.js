@@ -3,13 +3,13 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var fs = require("fs");
 var configuration_1 = require("./configuration");
 var SERVER_LIST_PATH;
-var ServerEntry = (function () {
+var ServerEntry = /** @class */ (function () {
     function ServerEntry() {
     }
     return ServerEntry;
 }());
 exports.ServerEntry = ServerEntry;
-var ServerList = (function () {
+var ServerList = /** @class */ (function () {
     function ServerList() {
     }
     ServerList.initialize = function () {

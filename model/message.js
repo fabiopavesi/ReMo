@@ -19,7 +19,7 @@ var OPS;
     OPS["STATUS_UPDATE"] = "STATUS_UPDATE";
     OPS["ALERT"] = "ALERT";
 })(OPS = exports.OPS || (exports.OPS = {}));
-var RequestMessage = (function () {
+var RequestMessage = /** @class */ (function () {
     function RequestMessage() {
         this.id = UuidStatic.v4();
         this.timestamp = new Date();
@@ -27,7 +27,7 @@ var RequestMessage = (function () {
     return RequestMessage;
 }());
 exports.RequestMessage = RequestMessage;
-var ResponseMessage = (function () {
+var ResponseMessage = /** @class */ (function () {
     function ResponseMessage() {
         this.id = UuidStatic.v4();
         this.timestamp = new Date();
@@ -36,7 +36,7 @@ var ResponseMessage = (function () {
 }());
 exports.ResponseMessage = ResponseMessage;
 // sub classes
-var RegistrationMessage = (function (_super) {
+var RegistrationMessage = /** @class */ (function (_super) {
     __extends(RegistrationMessage, _super);
     function RegistrationMessage() {
         var _this = _super.call(this) || this;
@@ -46,7 +46,7 @@ var RegistrationMessage = (function (_super) {
     return RegistrationMessage;
 }(RequestMessage));
 exports.RegistrationMessage = RegistrationMessage;
-var AlertMessage = (function (_super) {
+var AlertMessage = /** @class */ (function (_super) {
     __extends(AlertMessage, _super);
     function AlertMessage() {
         var _this = _super.call(this) || this;
@@ -56,7 +56,7 @@ var AlertMessage = (function (_super) {
     return AlertMessage;
 }(RequestMessage));
 exports.AlertMessage = AlertMessage;
-var RestartResponse = (function (_super) {
+var RestartResponse = /** @class */ (function (_super) {
     __extends(RestartResponse, _super);
     function RestartResponse() {
         var _this = _super.call(this) || this;
@@ -66,7 +66,7 @@ var RestartResponse = (function (_super) {
     return RestartResponse;
 }(ResponseMessage));
 exports.RestartResponse = RestartResponse;
-var StatusUpdateResponse = (function (_super) {
+var StatusUpdateResponse = /** @class */ (function (_super) {
     __extends(StatusUpdateResponse, _super);
     function StatusUpdateResponse() {
         return _super !== null && _super.apply(this, arguments) || this;

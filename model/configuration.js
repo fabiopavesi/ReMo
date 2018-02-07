@@ -6,7 +6,7 @@ var chalk = require("chalk");
 var mkdirp = require("mkdirp");
 exports.DEFAULT_CONFIG_DIR = '/etc/remo';
 exports.DEFAULT_CONFIG_FILENAME = exports.DEFAULT_CONFIG_DIR + '/monitor-config.json';
-var Configuration = (function () {
+var Configuration = /** @class */ (function () {
     function Configuration() {
     }
     Configuration.initialize = function (filename) {

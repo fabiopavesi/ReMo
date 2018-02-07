@@ -29,7 +29,7 @@ else {
     });
 }
 var get = require('simple-get');
-var Monitor = (function () {
+var Monitor = /** @class */ (function () {
     function Monitor() {
         var _this = this;
         this.telegramBot = new telegram_bot_1.TelegramBot();
